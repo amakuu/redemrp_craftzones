@@ -1,16 +1,18 @@
-Creates crafting zones for moonshine  stills and object based zones for campfires and cauldron.
+#redemrp_craftzones
+
+RedEM:RP Craftzones is a resource which creates crafting zones for moonshine stills and object based zones for campfires and cauldron.
 
  
 Dependencies
-    redem (https://github.com/kanersps/redem)
-    redem_roleplay (https://github.com/RedEM-RP/redem_roleplay)
-    redemrp_inventory 2.0 (https://github.com/RedEM-RP/redemrp_inventory)
-    redm_moonshine_interiors (https://github.com/CryptoGenics/redm_moonshine_interiors)
+    [redem](https://github.com/kanersps/redem)
+    [redem_roleplay](https://github.com/RedEM-RP/redem_roleplay)
+    [redemrp_inventory 2.0](https://github.com/RedEM-RP/redemrp_inventory)
+    [redm_moonshine_interiors](https://github.com/CryptoGenics/redm_moonshine_interiors)
 
 Object based interaction come from MrLupo and MrBohanon
 
 ****THESE MUST BE ADDED TO YOUR INVENTORY config.lua UNDER Config.Items TO WORK****
-  ["cauldron"] =
+```  ["cauldron"] =
   {
       label = "Cauldron",
       description = "for cooking",
@@ -110,3 +112,4 @@ Sample crafting recipes
               
           
 },
+```
